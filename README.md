@@ -2,6 +2,10 @@
 
 Deep neural networks (DNNs) are becoming increasingly important components of software, and are considered the state-of-the-art solution for a number of problems, such as image recognition. However, DNNs are far from infallible, and incorrect behavior of DNNs can have disastrous real-world consequences. In this tutorial, we discuss recent advances in the problem of provable repair of DNNs. Given a trained DNN and a repair specification, provable repair modifies the parameters of the DNN to guarantee that the repaired DNN satisfies the given specification while still ensuring high accuracy. The tutorial will describe algorithms for provable repair that support different DNN architectures as well as various types of repair specifications (pointwise and V-polytope). The tutorial will demonstrate the utility of provable repair using examples from a variety of application domains, including image recognition, natural language processing, and autonomous drone controllers. The attendees will get hands on experience with provable repair tools build using PyTorch, a popular machine learning library.
 
+## Presentation 
+
+- [Part 1](./presentation/pldi-tutorial-part1.pptx)
+- [Part 2](./presentation/pldi-tutorial-part2.pptx)
 
 ## Tutorials
 - [Pointwise Repair](./tutorial_pointwise_repair.ipynb): Interactive toy example for provable pointwise repair of DNNs.
